@@ -23,7 +23,7 @@ app.use(cors());
 
 // Default Routes
 app.get('/', (req,res)=>{
-    return res.status(200).send(`<h1 style="text-align:center;color:blue;">Welcome to OLX Classifieds Backend App</h1>`)
+    return res.status(200).send(`<h1 style="text-align:center;color:blue;">Welcome to Chat Application Backend App</h1>`)
 });
 
 
