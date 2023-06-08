@@ -24,7 +24,7 @@ const sendEmail = async (data) => {
     from: 'amanmandal644@gmail.com',
     to: `${data.email}`,
     subject: 'Email Verification',
-    text: `Click the following link to verify your email: http://localhost:8080/api/verify/${token}/${data._id}`,
+    text: `Click the following link to verify your email: https://chat-application-ovk0.onrender.com/api/verify/${token}/${data._id}`,
   })
   .then(()=>console.log('Mail sent successfully'))
   .catch((err)=>console.log("err",err))
