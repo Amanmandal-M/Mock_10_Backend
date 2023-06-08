@@ -8,7 +8,7 @@ const { registerController , verifyToken , loginController } = require('../contr
 // This endpoint is for signup
 userRouter.post('/signup', registerController);
 
-// 
+// This endpoint is for verify the email address
 userRouter.get('/verify/:token/:id', verifyToken);
 
 // This endpoint is for login 
