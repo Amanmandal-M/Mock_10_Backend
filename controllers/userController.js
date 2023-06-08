@@ -125,7 +125,7 @@ const loginController = async (req, res) => {
 
       const Normal_Token = jwt.sign(
         { userId: isPresent._id },
-        process.env.NORMAL_KEY,
+        process.env.NORMALKEY,
         { expiresIn: "7d" }
       );
 
